@@ -1,4 +1,4 @@
-import { Mail, MapPin, Sparkles } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import Logo from '../ui/Logo';
 
 export const Footer = () => {
@@ -90,10 +90,6 @@ export const Footer = () => {
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-blue-500 shrink-0" />
                 <span>Los Angeles, California</span>
-              </li>
-              <li className="flex items-center gap-1.5 text-[10px] text-slate-500 bg-slate-950 p-2 rounded-lg border border-slate-800">
-                <Sparkles className="w-3.5 h-3.5 text-blue-400 shrink-0" />
-                <span>Custom blueprints in 24 hrs</span>
               </li>
             </ul>
           </div>
