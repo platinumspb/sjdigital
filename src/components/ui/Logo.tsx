@@ -8,6 +8,8 @@ export const Logo: React.FC<LogoProps> = ({ className = 'w-8.5 h-8.5' }) => {
   return (
     <svg 
       viewBox="0 0 100 100" 
+      width="34"
+      height="34"
       className={`${className} rounded-full shadow-sm shrink-0 select-none`}
     >
       <defs>

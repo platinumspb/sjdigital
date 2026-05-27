@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        '8.5': '2.125rem', // 34px
+      },
       colors: {
         brand: {
           50: '#eff6ff',
