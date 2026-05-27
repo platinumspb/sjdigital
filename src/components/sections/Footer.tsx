@@ -1,4 +1,5 @@
 import { Mail, MapPin, Sparkles } from 'lucide-react';
+import Logo from '../ui/Logo';
 
 export const Footer = () => {
   const quickLinks = [
@@ -26,12 +27,7 @@ export const Footer = () => {
           {/* Logo & Positioning (5 cols) */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8.5 h-8.5 rounded-full overflow-hidden grid grid-cols-2 grid-rows-2 shadow-sm border border-slate-800 shrink-0 select-none">
-                <div className="bg-[#FF3232]"></div>
-                <div className="bg-white flex items-center justify-center text-black font-sans font-black text-[13px] leading-none">J</div>
-                <div className="bg-white flex items-center justify-center text-black font-sans font-black text-[13px] leading-none">S</div>
-                <div className="bg-[#FF3232]"></div>
-              </div>
+              <Logo className="w-8.5 h-8.5" />
               <div className="flex flex-col">
                 <span className="text-white font-bold text-base tracking-tight leading-none">Skillsjump</span>
                 <span className="text-[10px] text-slate-400 font-medium tracking-wider uppercase">Digital</span>
