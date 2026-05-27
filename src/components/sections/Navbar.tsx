@@ -21,7 +21,12 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-2.5">
             <a href="#" className="flex items-center gap-2">
-              <img src="/logo.svg" alt="Skillsjump Digital" className="w-8.5 h-8.5 rounded-full shadow-md" />
+              <div className="w-8.5 h-8.5 rounded-full overflow-hidden grid grid-cols-2 grid-rows-2 shadow-sm border border-slate-100/50 shrink-0 select-none">
+                <div className="bg-[#FF3232]"></div>
+                <div className="bg-white flex items-center justify-center text-black font-sans font-black text-[13px] leading-none">J</div>
+                <div className="bg-white flex items-center justify-center text-black font-sans font-black text-[13px] leading-none">S</div>
+                <div className="bg-[#FF3232]"></div>
+              </div>
               <div className="flex flex-col">
                 <span className="text-slate-900 font-bold text-base tracking-tight leading-none">Skillsjump</span>
                 <span className="text-[10px] text-slate-500 font-medium tracking-wider uppercase">Digital</span>
