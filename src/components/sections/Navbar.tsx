@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Button from '../ui/Button';
-import Logo from '../ui/Logo';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +21,9 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-2.5">
             <a href="#" className="flex items-center gap-2">
-              <Logo size={34} className="shadow-sm border border-slate-200/30" />
+              <img src="/logo.svg" alt="Skillsjump Digital" className="w-8.5 h-8.5 rounded-full shadow-md" />
               <div className="flex flex-col">
-                <span className="text-slate-900 font-bold text-base tracking-tight leading-none">⚡️killsjump</span>
+                <span className="text-slate-900 font-bold text-base tracking-tight leading-none">Skillsjump</span>
                 <span className="text-[10px] text-slate-500 font-medium tracking-wider uppercase">Digital</span>
               </div>
             </a>

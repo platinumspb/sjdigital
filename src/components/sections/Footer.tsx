@@ -1,5 +1,4 @@
 import { Mail, MapPin, Sparkles } from 'lucide-react';
-import Logo from '../ui/Logo';
 
 export const Footer = () => {
   const quickLinks = [
@@ -27,9 +26,9 @@ export const Footer = () => {
           {/* Logo & Positioning (5 cols) */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-2">
-              <Logo size={34} className="shadow-sm border border-slate-700/50" />
+              <img src="/logo.svg" alt="Skillsjump Digital" className="w-8.5 h-8.5 rounded-full shadow-md" />
               <div className="flex flex-col">
-                <span className="text-white font-bold text-base tracking-tight leading-none">⚡️killsjump</span>
+                <span className="text-white font-bold text-base tracking-tight leading-none">Skillsjump</span>
                 <span className="text-[10px] text-slate-400 font-medium tracking-wider uppercase">Digital</span>
               </div>
             </div>
@@ -102,7 +101,7 @@ export const Footer = () => {
 
         {/* Sub Footer */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-[11px] font-medium text-slate-500 gap-4">
-          <p>© 2026 ⚡️killsjump Digital. All rights reserved.</p>
+          <p>© 2026 Skillsjump Digital. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-slate-400 transition-colors">Privacy Policy</a>
             <span>•</span>
